@@ -5,3 +5,4 @@ build:
 filter:
     excluded_paths:
         - public/bolt-public/*
+        - public/theme/base-2016/*
