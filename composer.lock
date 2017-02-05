@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "c9a9af954c8d5c424a47390e1a84d244",
+    "content-hash": "c25ff1636d9e2d3b9db2346fba314364",
     "packages": [
         {
             "name": "bolt/bolt",
@@ -4916,7 +4916,7 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": "^7.1"
+        "php": "^7.0"
     },
     "platform-dev": []
 }
