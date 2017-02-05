@@ -81,4 +81,8 @@ Options -Indexes
    RewriteCond %{SCRIPT_FILENAME} -d [OR]
    RewriteCond %{SCRIPT_FILENAME} -f
    RewriteRule "(^|/)\." - [F]
+
+   # Force HTTPS on Fortrabbit
+   RewriteCond %{HTTP:X-Forwarded-Port} !=443
+   RewriteRule (.*) https://%{HTTP_HOST}/$1 [R=301,L]
 </IfModule>
