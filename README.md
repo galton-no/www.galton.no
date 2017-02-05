@@ -1,10 +1,4 @@
-### Bolt Installer for Composer
+## www.galton.no
 
-To start the install just run the following command replacing the project with
-the name you want to use.
-
-`composer create-project bolt/composer-install:^3.2 <MYPROJECT> --prefer-dist`
-
-
-After the packages have downloaded, you can choose whether you would like a
-separate public directory and if so choose a name.
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/galton-no/www.galton.no/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/galton-no/www.galton.no/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/galton-no/www.galton.no/badges/build.png?b=master)](https://scrutinizer-ci.com/g/galton-no/www.galton.no/build-status/master)
