@@ -27,5 +27,8 @@
         "branch-alias": {
             "dev-release/3.2" : "3.2.x-dev"
         }
+    },
+    "require-dev": {
+        "behat/behat": "^3.3"
     }
 }
