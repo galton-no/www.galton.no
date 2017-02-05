@@ -7,6 +7,4 @@ filter:
         - public/bolt-public/*
         - public/theme/base-2016/*
 checks:
-    php:
-        code_rating: true
-        duplication: true
+    php: true
