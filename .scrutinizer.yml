@@ -6,3 +6,7 @@ filter:
     excluded_paths:
         - public/bolt-public/*
         - public/theme/base-2016/*
+checks:
+    php:
+        code_rating: true
+        duplication: true
