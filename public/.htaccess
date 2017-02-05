@@ -83,6 +83,7 @@ Options -Indexes
    RewriteRule "(^|/)\." - [F]
 
    # Force HTTPS on Fortrabbit
+   Header always set Strict-Transport-Security "max-age=31536000"
    RewriteCond %{HTTP:X-Forwarded-Port} !=443
    RewriteRule (.*) https://%{HTTP_HOST}/$1 [R=301,L]
 </IfModule>
